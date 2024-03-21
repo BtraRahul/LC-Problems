@@ -14,45 +14,64 @@ class Solution {
     int final;
 
 public:
-    pair<int, int> helper(TreeNode* root) {
-        int rt = root->val;
-        pair<int, int> ans = {rt, rt};
+    // pair<int, int> helper(TreeNode* root) {
+    //     int rt = root->val;
+    //     pair<int, int> ans = {rt, rt};
 
-        int lf = 0, ls = 0, rf = 0, rs = 0;
+    //     int lf = 0, ls = 0, rf = 0, rs = 0;
 
-        if (root->left) {
-            pair<int, int> small = helper(root->left);
-            lf = small.first;
-            ls = small.second;
-        }
-        if (root->right) {
-            pair<int, int> small = helper(root->right);
-            rf = small.first;
-            rs = small.second;
-        }
+    //     if (root->left) {
+    //         pair<int, int> small = helper(root->left);
+    //         lf = small.first;
+    //         ls = small.second;
+    //     }
+    //     if (root->right) {
+    //         pair<int, int> small = helper(root->right);
+    //         rf = small.first;
+    //         rs = small.second;
+    //     }
 
-        if (root->left && root->right) {
-            ans.first = max(ans.first, ans.first + max(lf, rf));
-            ans.second = max({ans.second, ls, rs, rf + lf + rt});
-        } else if (root->right && !root->left) {
-            ans.first = max(ans.first, ans.first + rf);
-            ans.second = max({ans.second, rs, rf + rt});
-        } else if (!root->right && root->left) {
-            ans.first = max(ans.first, ans.first + lf);
-            ans.second = max({ans.second, ls, lf + rt});
-        }
+    //     if (root->left && root->right) {
+    //         ans.first = max(ans.first, ans.first + max(lf, rf));
+    //         ans.second = max({ans.second, ls, rs, rf + lf + rt});
+    //     } else if (root->right && !root->left) {
+    //         ans.first = max(ans.first, ans.first + rf);
+    //         ans.second = max({ans.second, rs, rf + rt});
+    //     } else if (!root->right && root->left) {
+    //         ans.first = max(ans.first, ans.first + lf);
+    //         ans.second = max({ans.second, ls, lf + rt});
+    //     }
 
-        cout << ans.first << " " << ans.second << endl;
-        final = max({final, ans.first, ans.second});
-        return ans;
-    }
-    int maxPathSum(TreeNode* root) {
-        if (!root)
+    //     cout << ans.first << " " << ans.second << endl;
+    //     final = max({final, ans.first, ans.second});
+    //     return ans;
+    // }
+    // int maxPathSum(TreeNode* root) {
+    //     if (!root)
+    //         return 0;
+
+    //     final = INT_MIN;
+    //     pair<int, int> ans = helper(root);
+
+    //     return final;
+    // }
+
+    // m2
+    int maxPath(TreeNode* root, int& maxi) {
+        if (root == NULL)
             return 0;
 
-        final = INT_MIN;
-        pair<int, int> ans = helper(root);
+        int lh = max(0, maxPath(root->left, maxi));
+        int rh = max(0, maxPath(root->right, maxi));
+        maxi = max(maxi, lh + rh + root->val);
 
-        return final;
+        return root->val + max(lh, rh);
+    }
+
+    int maxPathSum(TreeNode* root) {
+        int maxi = INT_MIN;
+        maxPath(root, maxi);
+
+        return maxi;
     }
 };
