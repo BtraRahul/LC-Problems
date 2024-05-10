@@ -22,15 +22,31 @@ var timeLimit = function (fn, t) {
     // }
 
     //one way
+    // return async function (...args) {
+    //     const promises = [
+    //         new Promise(resolve => resolve(fn(...args))), //performs task irrespective of time taken
+    //         new Promise((resolve, reject) => setTimeout(() => reject("Time Limit Exceeded"), t)) //reject after t millisec.
+    //     ]
+
+    //     return Promise.race(promises) //returns the fastest result
+
+    // }
+
     return async function (...args) {
-        const promises = [
-            new Promise(resolve => resolve(fn(...args))), //performs task irrespective of time taken
-            new Promise((resolve, reject) => setTimeout(() => reject("Time Limit Exceeded"), t)) //reject after t millisec.
-        ]
+        return new Promise((delayresolve, reject) => {
+            const timeoutId = setTimeout(() => {
+                reject("Time Limit Exceeded");
+            }, t);
 
-        return Promise.race(promises) //returns the fastest result
-
-    }
+            fn(...args)
+                .then((result) => {
+                    delayresolve(result);
+                })
+                .catch((error) => {
+                    reject(error);
+                });
+        });
+    };
 };
 
 /**
