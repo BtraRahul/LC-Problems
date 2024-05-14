@@ -1,18 +1,7 @@
 var TimeLimitedCache = function () {
-    this.store = {}
-    this.timeStore = {}
+    store = {}
+    timeStore = {}
 };
-
-
-// if (id in memo) return memo[id]
-// let x = fn(...args)
-// memo[id] = x
-// return x
-// return memo[id] = fn(...args)
-
-// let id = JSON.stringify(args)
-// id = args.join(',')
-// return (id in memo) ? memo[id] : memo[id] = fn(...args)
 
 /** 
  * @param {number} key
@@ -21,22 +10,17 @@ var TimeLimitedCache = function () {
  * @return {boolean} if un-expired key already existed
  */
 TimeLimitedCache.prototype.set = function (key, value, duration) {
-    const existed = key in this.store
+    const existed = key in store
     if (existed) {
-        clearTimeout(this.timeStore[key])
-        delete this.timeStore[key]
+        clearTimeout(timeStore[key])
     }
+    store[key] = value;
 
-    this.store[key] = value
-
-    this.timeStore[key] = setTimeout(() => {
-        delete this.store[key]
+    timeStore[key] = setTimeout(() => {
+        delete store[key]
     }, duration)
 
-
     return existed
-
-
 };
 
 /** 
@@ -44,22 +28,22 @@ TimeLimitedCache.prototype.set = function (key, value, duration) {
  * @return {number} value associated with key
  */
 TimeLimitedCache.prototype.get = function (key) {
-    if (key in this.store) return this.store[key]
 
-    return -1
+    return (key in store) ? store[key] : -1;
+
 };
 
 /** 
  * @return {number} count of non-expired keys
  */
 TimeLimitedCache.prototype.count = function () {
+    // return Object.keys(this.store).length;
+
     let count = 0;
-    for (const key in this.store) {
-        if (this.store.hasOwnProperty(key)) {
-            count++;
-        }
-    }
-    return count;
+
+    for (const key in store) count++
+
+    return count
 
 };
 
