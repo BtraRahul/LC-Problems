@@ -1,0 +1,3 @@
+Input: arr = [2,3,1,6,7]
+Output: 4
+Explanation: The triplets are (0,1,2), (0,2,2), (2,3,4) and (2,4,4)
