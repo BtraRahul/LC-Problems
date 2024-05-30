@@ -4,19 +4,16 @@
  */
 Array.prototype.groupBy = function (fn) {
     final = {}
-    vis = []
+
     for (let i = 0; i < this.length; i++) {
         const key = fn(this[i])
 
-        if (key in vis)
+        if (key in final)
             final[key].push(this[i])
         else {
             final[key] = []
             final[key].push(this[i])
-            vis[key] = 1
         }
-
-
 
     }
 
