@@ -1,0 +1,24 @@
+type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };
+
+function join(arr1: { "id": number, [key: string]: JSONValue}[], arr2: { "id": number, [key: string]: JSONValue }[]): JSONValue[] {
+  arr1.sort((a, b) => a.id - b.id);
+  arr2.sort((a, b) => a.id - b.id);
+  let i = 0, j = 0;
+  let n = arr1.length;
+  let m = arr2.length;
+  const res: { "id": number, [key:string]: JSONValue }[] = [];
+  while(i<n || j<m) {
+      if(i<n && j<m && arr1[i].id===arr2[j].id) {
+          res.push({...arr1[i], ...arr2[j]});
+          i++;
+          j++;
+      } else if(i<n && j<m && arr1[i].id<arr2[j].id || j==m) {
+          res.push(arr1[i]);
+          i++;
+      } else if(i<n && j<m && arr1[i].id>arr2[j].id || i==n) {
+          res.push(arr2[j]);
+          j++;
+      }
+  }  
+  return res;
+};
