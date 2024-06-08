@@ -32,14 +32,14 @@ public:
 
         mp[pre[0]] = 0;
 
-        for (int i : pre)
-            cout << i << " ";
+        // for (int i : pre)
+            // cout << i << " ";
 
         for (int i : pre) {
 
             for (int m = 1; m <= mult; m++) {
                 int sum = i + m * k;
-                cout << endl << sum;
+                // cout << endl << sum;
 
                 if (mp.find(sum) != mp.end() && mp[i] != mp[sum]) {
                     if (mp[sum] - mp[i] >= 2)
