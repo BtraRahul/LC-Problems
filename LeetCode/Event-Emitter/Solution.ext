@@ -1,0 +1,10 @@
+Input: 
+actions = ["EventEmitter", "emit", "subscribe", "subscribe", "emit"], 
+values = [[], ["firstEvent", "function cb1() { return 5; }"],  ["firstEvent", "function cb1() { return 6; }"], ["firstEvent"]]
+Output: [[],["emitted",[]],["subscribed"],["subscribed"],["emitted",[5,6]]]
+Explanation: 
+const emitter = new EventEmitter();
+emitter.emit("firstEvent"); // [], no callback are subscribed yet
+emitter.subscribe("firstEvent", function cb1() { return 5; });
+emitter.subscribe("firstEvent", function cb2() { return 6; });
+emitter.emit("firstEvent"); // [5, 6], returns the output of cb1 and cb2
