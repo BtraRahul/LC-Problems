@@ -1,19 +1,50 @@
 class Solution {
 public:
-    int findJudge(int n, vector<vector<int>>& trust) {  
-	 // Arrays to track trust given and received
-        vector<int> trusting(n + 1, 0);   
-        vector<int> trusted(n + 1, 0);     
-        for (auto i : trust) {                    // Count trust relationships
-            trusting[i[0]]++;                    // Increment trust given
-            trusted[i[1]]++;                    // Increment trust received
+    bool isJudge(int n, int judge, auto& mp) {
+        for (int i = 1; i <= n; i++) {
+            if (i == judge)
+                continue;
+
+            bool found = false;
+            for (auto j : mp[i])
+                if (j == judge) {
+                    found = true;
+                    break;
+                }
+            if (!found)
+                return false;
         }
-        int ans = -1;                           
-                       
-        for (int i = 1; i <= n; i++)          
-        
-            if (trusting[i] == 0 && trusted[i] == n - 1){ 
-                ans = i;            }
-        return ans;              
+
+        return true;
+    }
+    int findJudge(int n, vector<vector<int>>& trust) {
+        map<int, vector<int>> mp;
+
+        for (auto r : trust)
+            mp[r[0]].push_back(r[1]);
+
+        for (auto it : mp) {
+            cout << it.first << ": ";
+            for (auto j : it.second)
+                cout << j << " ";
+            cout << endl;
+        }
+
+        int ans = -1;
+        bool found = false;
+
+        for (int i = 1; i <= n; i++) {
+            if (mp.find(i) == mp.end()) {
+                if (isJudge(n, i, mp)) {
+                    if (!found) {
+                        found = true;
+                        ans = i;
+                    } else
+                        return -1;
+                }
+            }
+        }
+
+        return ans;
     }
 };
