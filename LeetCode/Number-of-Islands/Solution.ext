@@ -1,7 +1,37 @@
-Input: grid = [
-  ["1","1","1","1","0"],
-  ["1","1","0","1","0"],
-  ["1","1","0","0","0"],
-  ["0","0","0","0","0"]
-]
-Output: 1
+class Solution {
+public:
+    bool isValid(int n, int m, int i, int j){
+        return i>=0 && i<n && j>=0 && j<m;
+    }
+
+    void helper(vector<vector<char>>& grid, vector<vector<bool>>& v, int n, int m, int i, int j){
+        if(!isValid(n, m, i, j)) return;
+
+        v[i][j]=true;
+        int dxdy[4][2]={{1,0},{-1,0},{0,1}, {0,-1}};
+        for(int k=0;k<=3;k++){
+            int newx=i+dxdy[k][0];
+            int newy=j+dxdy[k][1];
+            
+            if(isValid(n,m,newx,newy) && v[newx][newy]==0 && grid[newx][newy]=='1')
+                helper(grid, v, n, m, newx, newy);
+        }
+    }
+    int numIslands(vector<vector<char>>& grid) {
+        int n=grid.size();
+        int m=grid[0].size();
+
+        int c=0;
+        vector<vector<bool>> v(n, vector<bool>(m,false));
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(!v[i][j] && grid[i][j]=='1') {
+                    helper(grid, v, n,m, i, j);
+                    c++;
+                }
+            }
+        }
+    return c;
+    }
+
+};
