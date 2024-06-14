@@ -23,12 +23,12 @@ public:
         for (auto r : trust)
             mp[r[0]].push_back(r[1]);
 
-        for (auto it : mp) {
-            cout << it.first << ": ";
-            for (auto j : it.second)
-                cout << j << " ";
-            cout << endl;
-        }
+        // for (auto it : mp) {
+        //     cout << it.first << ": ";
+        //     for (auto j : it.second)
+        //         cout << j << " ";
+        //     cout << endl;
+        // }
 
         int ans = -1;
         bool found = false;
