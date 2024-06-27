@@ -1,15 +1,17 @@
 class Solution {
 public:
     int findCenter(vector<vector<int>>& edges) {
-        int ans = -1, max_freq = 0;
-        unordered_map<int, int> f;
+        unordered_map<int, int> mp;
 
-        for (auto r : edges) {
-            f[r[0]]++, f[r[1]]++;
-            if (f[r[0]]>max_freq) max_freq=f[r[0]], ans=r[0];
-            if (f[r[1]]>max_freq) max_freq=f[r[1]], ans=r[1];
-        }
+        mp[edges[0][0]]++;
+        mp[edges[0][1]]++;
+        mp[edges[1][0]]++;
+        mp[edges[1][1]]++;
 
-        return ans;
+        for (auto r : mp)
+            if (r.second >= 2)
+                return r.first;
+
+        return -1;
     }
 };
