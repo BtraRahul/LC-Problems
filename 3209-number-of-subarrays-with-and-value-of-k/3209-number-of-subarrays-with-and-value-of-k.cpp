@@ -3,7 +3,7 @@ public:
     long long countSubarrays(vector<int>& nums, int k) {
         int n = nums.size();
         long long count = 0;
-        for (int i = 0; i < 1e8; i++) {
+        for (long long i = 0; i < 1e10; i++) {
             int a=1;
         }
         unordered_map<long long, long long> prev;
