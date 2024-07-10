@@ -1,52 +1,43 @@
 class Solution {
 public:
-    bool helper(vector<vector<int>>& graph, int start) {
-        vector<set<int>> nodeSet(2);
-
-        // int set=0; //1st set is zero, next set is 1
-
-        queue<pair<int, int>> q;  // set, node;
-        nodeSet[0].insert(start); // belongs to set 0;
-        q.push({0, start});
-        unordered_map<int, int> vis;
-        vis[start] = 1;
-
-        while (q.size()) {
-            int currSet = q.front().first;
-            int currNode = q.front().second;
-            q.pop();
-
-            int nextSet = !currSet;
-
-            // push all nodes connected to currNode to the next set. if
-            // currSet=0; next_set=1
-
-            for (int node : graph[currNode]) {
-                // if the node connected to currNode is in the same set as
-                // currNode, graph is not bipartite return false;
-                if (nodeSet[currSet].find(node) != nodeSet[currSet].end())
-                    return false;
-
-                if (vis[node])
-                    continue;
-
-                vis[node] = 1;
-
-                nodeSet[nextSet].insert(node);
-                q.push({nextSet, node});
-            }
-        }
-
-        return true;
-    }
     bool isBipartite(vector<vector<int>>& graph) {
-        int n = graph.size();
+        map<int, set<int>> st;
 
-        bool ans = true;
+        // first set -> 0
+        // second set -> 1
+
+        st[0].insert(0);
+        queue<pair<int, int>> q; //<node, set>
+
+        int n=graph.size();
+        map<int, int> vis;
+
         for (int i = 0; i < n; i++) {
-            ans &= helper(graph, i);
-            if (!ans)
-                return false;
+            if (!vis[i])
+                q.push({i, 0});
+            vis[i]=1;
+            while (q.size()) {
+                pair<int, int> f = q.front();
+                int currNode = f.first;
+                int nextSet = !f.second;
+
+                q.pop();
+
+                for (int node : graph[currNode]) {
+                    // if node is in the same set as currNode, return false;
+                    // else push
+                    int currSet = f.second;
+                    if (st[currSet].find(node) != st[currSet].end())
+                        return false;
+
+                    if (vis[node])
+                        continue;
+                    vis[node] = 1;
+
+                    q.push({node, nextSet});
+                    st[nextSet].insert(node);
+                }
+            }
         }
 
         return true;
