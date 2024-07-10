@@ -5,8 +5,8 @@ public:
 
         // int set=0; //1st set is zero, next set is 1
 
-        queue<pair<int, int>> q; // set, node;
-        nodeSet[0].insert(start);    // belongs to set 0;
+        queue<pair<int, int>> q;  // set, node;
+        nodeSet[0].insert(start); // belongs to set 0;
         q.push({0, start});
         unordered_map<int, int> vis;
         vis[start] = 1;
@@ -15,7 +15,6 @@ public:
             int currSet = q.front().first;
             int currNode = q.front().second;
             q.pop();
-            cout << currSet << " " << currNode << endl;
 
             int nextSet = !currSet;
 
@@ -45,7 +44,7 @@ public:
 
         bool ans = true;
         for (int i = 0; i < n; i++) {
-            ans = ans & helper(graph, i);
+            ans &= helper(graph, i);
             if (!ans)
                 return false;
         }
