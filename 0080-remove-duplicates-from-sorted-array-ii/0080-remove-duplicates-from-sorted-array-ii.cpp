@@ -21,17 +21,14 @@ public:
             }
         }
 
-        for (int e : nums)
-            cout << e << " ";
+        int i = 0, j = 0;
 
-        int i=0, j=0;
+        while (i <= j && j < nums.size()) {
+            while (j < nums.size() && nums[j] == INT_MAX)
+                j++;
 
-        while(i<=j && j<nums.size()){
-            while(j<nums.size() && nums[j]==INT_MAX) j++;
-            
-            nums[i]=nums[j];
+            nums[i] = nums[j];
             i++, j++;
-
         }
         return nums.size() - rem;
     }
