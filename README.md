@@ -19,6 +19,7 @@ Collection of LeetCode questions.
 ## String
 |  |
 | ------- |
+| [0126-word-ladder-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0126-word-ladder-ii) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/BtraRahul/LC-Problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Tree
 |  |
@@ -56,10 +57,16 @@ Collection of LeetCode questions.
 ## Hash Table
 |  |
 | ------- |
+| [0126-word-ladder-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0126-word-ladder-ii) |
 | [1207-delete-nodes-and-return-forest](https://github.com/BtraRahul/LC-Problems/tree/master/1207-delete-nodes-and-return-forest) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0126-word-ladder-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0126-word-ladder-ii) |
 | [0733-flood-fill](https://github.com/BtraRahul/LC-Problems/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/BtraRahul/LC-Problems/tree/master/1036-rotting-oranges) |
+## Backtracking
+|  |
+| ------- |
+| [0126-word-ladder-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0126-word-ladder-ii) |
 <!---LeetCode Topics End-->
