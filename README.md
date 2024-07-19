@@ -20,6 +20,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0126-word-ladder-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0126-word-ladder-ii) |
+| [0402-remove-k-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0402-remove-k-digits) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/BtraRahul/LC-Problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/BtraRahul/LC-Problems/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 | [3046-minimum-operations-to-make-a-special-number](https://github.com/BtraRahul/LC-Problems/tree/master/3046-minimum-operations-to-make-a-special-number) |
@@ -79,6 +80,7 @@ Collection of LeetCode questions.
 ## Greedy
 |  |
 | ------- |
+| [0402-remove-k-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0402-remove-k-digits) |
 | [0738-monotone-increasing-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0738-monotone-increasing-digits) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/BtraRahul/LC-Problems/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 | [3046-minimum-operations-to-make-a-special-number](https://github.com/BtraRahul/LC-Problems/tree/master/3046-minimum-operations-to-make-a-special-number) |
@@ -87,4 +89,12 @@ Collection of LeetCode questions.
 | ------- |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/BtraRahul/LC-Problems/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 | [3046-minimum-operations-to-make-a-special-number](https://github.com/BtraRahul/LC-Problems/tree/master/3046-minimum-operations-to-make-a-special-number) |
+## Stack
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0402-remove-k-digits) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0402-remove-k-digits) |
 <!---LeetCode Topics End-->
