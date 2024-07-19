@@ -74,10 +74,12 @@ Collection of LeetCode questions.
 ## Math
 |  |
 | ------- |
+| [0738-monotone-increasing-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0738-monotone-increasing-digits) |
 | [3046-minimum-operations-to-make-a-special-number](https://github.com/BtraRahul/LC-Problems/tree/master/3046-minimum-operations-to-make-a-special-number) |
 ## Greedy
 |  |
 | ------- |
+| [0738-monotone-increasing-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0738-monotone-increasing-digits) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/BtraRahul/LC-Problems/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 | [3046-minimum-operations-to-make-a-special-number](https://github.com/BtraRahul/LC-Problems/tree/master/3046-minimum-operations-to-make-a-special-number) |
 ## Enumeration
