@@ -36,6 +36,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0733-flood-fill](https://github.com/BtraRahul/LC-Problems/tree/master/0733-flood-fill) |
+| [0820-find-eventual-safe-states](https://github.com/BtraRahul/LC-Problems/tree/master/0820-find-eventual-safe-states) |
 | [1207-delete-nodes-and-return-forest](https://github.com/BtraRahul/LC-Problems/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/BtraRahul/LC-Problems/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/BtraRahul/LC-Problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -71,6 +72,7 @@ Collection of LeetCode questions.
 | ------- |
 | [0126-word-ladder-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0126-word-ladder-ii) |
 | [0733-flood-fill](https://github.com/BtraRahul/LC-Problems/tree/master/0733-flood-fill) |
+| [0820-find-eventual-safe-states](https://github.com/BtraRahul/LC-Problems/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/BtraRahul/LC-Problems/tree/master/1036-rotting-oranges) |
 ## Backtracking
 |  |
@@ -110,4 +112,12 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/BtraRahul/LC-Problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+## Graph
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/BtraRahul/LC-Problems/tree/master/0820-find-eventual-safe-states) |
+## Topological Sort
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/BtraRahul/LC-Problems/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
