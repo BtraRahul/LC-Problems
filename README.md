@@ -11,6 +11,7 @@ Collection of LeetCode questions.
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
 | [1036-rotting-oranges](https://github.com/BtraRahul/LC-Problems/tree/master/1036-rotting-oranges) |
 | [1207-delete-nodes-and-return-forest](https://github.com/BtraRahul/LC-Problems/tree/master/1207-delete-nodes-and-return-forest) |
+| [1333-sort-the-jumbled-numbers](https://github.com/BtraRahul/LC-Problems/tree/master/1333-sort-the-jumbled-numbers) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3347-distribute-elements-into-two-arrays-i) |
 ## Two Pointers
@@ -120,4 +121,8 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/BtraRahul/LC-Problems/tree/master/0820-find-eventual-safe-states) |
+## Sorting
+|  |
+| ------- |
+| [1333-sort-the-jumbled-numbers](https://github.com/BtraRahul/LC-Problems/tree/master/1333-sort-the-jumbled-numbers) |
 <!---LeetCode Topics End-->
