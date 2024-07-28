@@ -75,6 +75,7 @@ Collection of LeetCode questions.
 | [0733-flood-fill](https://github.com/BtraRahul/LC-Problems/tree/master/0733-flood-fill) |
 | [0820-find-eventual-safe-states](https://github.com/BtraRahul/LC-Problems/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/BtraRahul/LC-Problems/tree/master/1036-rotting-oranges) |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2171-second-minimum-time-to-reach-destination) |
 ## Backtracking
 |  |
 | ------- |
@@ -117,6 +118,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/BtraRahul/LC-Problems/tree/master/0820-find-eventual-safe-states) |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2171-second-minimum-time-to-reach-destination) |
 ## Topological Sort
 |  |
 | ------- |
@@ -125,4 +127,8 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [1333-sort-the-jumbled-numbers](https://github.com/BtraRahul/LC-Problems/tree/master/1333-sort-the-jumbled-numbers) |
+## Shortest Path
+|  |
+| ------- |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2171-second-minimum-time-to-reach-destination) |
 <!---LeetCode Topics End-->
