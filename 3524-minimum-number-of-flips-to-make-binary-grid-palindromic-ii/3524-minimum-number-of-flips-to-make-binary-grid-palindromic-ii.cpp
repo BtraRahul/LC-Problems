@@ -7,9 +7,8 @@ public:
 
         int c=0;
 
-        // for(int i=0;i<1e6;i++) c++;
+        for(int i=0;i<1e6;i++) c++;
 
-        // Check the center cell if both dimensions are odd
         if (numRows % 2 == 1 && numCols % 2 == 1) {
             if (grid[numRows / 2][numCols / 2] == 1) {
                 flipCount += 1;
@@ -18,7 +17,6 @@ public:
 
         vector<int> shiftCounts(3, 0);
 
-        // Count flips needed for rows if the number of rows is odd
         if (numRows % 2 == 1) {
             int left = 0, right = numCols - 1;
             while (left < right) {
@@ -29,7 +27,6 @@ public:
             }
         }
 
-        // Count flips needed for columns if the number of columns is odd
         if (numCols % 2 == 1) {
             int top = 0, bottom = numRows - 1;
             while (top < bottom) {
@@ -40,7 +37,6 @@ public:
             }
         }
 
-        // Update the flip count based on shift counts
         if (shiftCounts[2] % 2 == 1) {
             if (shiftCounts[1] > 0) {
                 flipCount += shiftCounts[1];
@@ -51,7 +47,6 @@ public:
             flipCount += shiftCounts[1];
         }
 
-        // Handle the corners of each 2x2 block
         for (int row = 0; row < numRows / 2; ++row) {
             for (int col = 0; col < numCols / 2; ++col) {
                 int topLeft = grid[row][col];
