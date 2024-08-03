@@ -1,0 +1,85 @@
+class Solution {
+public:
+    int minFlips(vector<vector<int>>& grid) {
+        int n=grid.size();
+        int m=grid[0].size();
+        int i=0,j=m-1;
+        int final=0;
+        int ekor=0;
+        int ekor1=0;
+        int final2=0;
+        while(i<=j){
+            if(i==j){
+                i++;
+                j--;
+                continue;
+            }
+            int strt=0;
+            int end=n-1;
+            while(strt<=end){
+                if(strt==end){
+                    strt++;
+                    end--;
+                    continue;
+                }
+                int ans=grid[strt][i]+grid[end][i]+grid[strt][j]+grid[end][j];
+                
+                    if(ans==3){
+                        final++;
+                    }
+                    else if(ans==2){
+                        final+=2;
+                    }
+                    else if(ans==1){
+                        final+=1;
+                    }
+                
+                strt++;
+                end--;
+            }
+            i++;
+            j--;
+        }
+        int ind1=0;
+        int ind2=0;
+        if(n%2!=0){
+            
+            for(int j=0;j<m/2;j++){
+                if(grid[n/2][j]==grid[n/2][m-j-1] and grid[n/2][j]==1){
+                    ind1+=2;
+                }
+                else if(grid[n/2][j]!=grid[n/2][m-j-1]){
+                    final++;
+                    ind2+=2;
+                }
+            }
+        }
+        if(m%2!=0){
+            for(int j=0;j<n/2;j++){
+                if(grid[j][m/2]==grid[n-j-1][m/2] and grid[j][m/2]==1){
+                    ind1+=2;
+                }
+                else if(grid[j][m/2]!=grid[n-j-1][m/2]){
+                    final++;
+                    ind2+=2;
+                }
+            }
+        }
+        if(n%2!=0 and m%2!=0 and grid[n/2][m/2]==1){
+            // cout<<final<<endl;
+            final++;
+        }
+        if((ind1+ind2)%4==0){
+            return final;
+        }
+        else{
+            if(ind2>0){
+                return final;
+            }
+            else{
+                return final+2;
+            }
+        }
+        
+    }
+};
