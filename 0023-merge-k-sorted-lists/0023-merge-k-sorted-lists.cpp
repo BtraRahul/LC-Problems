@@ -10,64 +10,31 @@
  */
 class Solution {
 public:
-   ListNode *merged(ListNode *a, ListNode *b)
-    {
-        if (a == NULL)
-            return b;
-        if (b == NULL)
-            return a;
-        ListNode *newnode = NULL, *head = NULL;
-        ListNode *i = a, *j = b;
-        while (i != NULL && j != NULL)
-        {
-            if (i->val < j->val)
-            {
-                if (newnode == NULL)
-                {
-                    newnode = i;
-                    i = i->next;
-                    newnode->next = NULL;
-                    head = newnode;
-                }
-                else
-                {
-                    newnode->next = i;
-                    i = i->next;
-                    newnode = newnode->next;
-                    newnode->next = NULL;
-                }
-            }
-            else
-            {
-                if (newnode == NULL)
-                {
-                    newnode = j;
-                    j = j->next;
-                    newnode->next = NULL;
-                    head = newnode;
-                }
-                else
-                {
-                    newnode->next = j;
-                    j = j->next;
-                    newnode = newnode->next;
-                    newnode->next = NULL;
-                }
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        priority_queue<int, vector<int>, greater<int>> pq;
+
+        for (auto list : lists) {
+            ListNode* temp = list;
+            while (temp) {
+                pq.push(temp->val);
+                temp = temp->next;
             }
         }
-        if (i == NULL)
-            newnode->next = j;
-        if (j == NULL)
-            newnode->next = i;
+
+        cout << pq.size();
+
+        if (pq.size() == 0)
+            return NULL;
+
+        ListNode* newNode = new ListNode(pq.top());
+        ListNode* head = newNode;
+        pq.pop();
+        while (pq.size()) {
+            newNode->next = new ListNode(pq.top());
+            newNode = newNode->next;
+            pq.pop();
+        }
+
         return head;
-    }
-    ListNode *mergeKLists(vector<ListNode *> &lists)
-    {
-        ListNode *newnode = NULL;
-        for (int i = 0; i < lists.size(); i++)
-        {
-            newnode = merged(newnode, lists[i]);
-        }
-        return newnode;
     }
 };
