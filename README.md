@@ -59,6 +59,7 @@ Collection of LeetCode questions.
 | ------- |
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/BtraRahul/LC-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Matrix
 |  |
 | ------- |
@@ -124,11 +125,13 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/BtraRahul/LC-Problems/tree/master/0820-find-eventual-safe-states) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2171-second-minimum-time-to-reach-destination) |
 ## Topological Sort
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/BtraRahul/LC-Problems/tree/master/0820-find-eventual-safe-states) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Sorting
 |  |
 | ------- |
@@ -137,6 +140,7 @@ Collection of LeetCode questions.
 ## Shortest Path
 |  |
 | ------- |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2171-second-minimum-time-to-reach-destination) |
 ## Binary Search
 |  |
