@@ -9,6 +9,7 @@ Collection of LeetCode questions.
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0733-flood-fill](https://github.com/BtraRahul/LC-Problems/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
+| [0870-magic-squares-in-grid](https://github.com/BtraRahul/LC-Problems/tree/master/0870-magic-squares-in-grid) |
 | [1036-rotting-oranges](https://github.com/BtraRahul/LC-Problems/tree/master/1036-rotting-oranges) |
 | [1207-delete-nodes-and-return-forest](https://github.com/BtraRahul/LC-Problems/tree/master/1207-delete-nodes-and-return-forest) |
 | [1333-sort-the-jumbled-numbers](https://github.com/BtraRahul/LC-Problems/tree/master/1333-sort-the-jumbled-numbers) |
@@ -66,6 +67,7 @@ Collection of LeetCode questions.
 | ------- |
 | [0733-flood-fill](https://github.com/BtraRahul/LC-Problems/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
+| [0870-magic-squares-in-grid](https://github.com/BtraRahul/LC-Problems/tree/master/0870-magic-squares-in-grid) |
 | [1036-rotting-oranges](https://github.com/BtraRahul/LC-Problems/tree/master/1036-rotting-oranges) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/BtraRahul/LC-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -74,6 +76,7 @@ Collection of LeetCode questions.
 | ------- |
 | [0126-word-ladder-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0126-word-ladder-ii) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/BtraRahul/LC-Problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+| [0870-magic-squares-in-grid](https://github.com/BtraRahul/LC-Problems/tree/master/0870-magic-squares-in-grid) |
 | [1207-delete-nodes-and-return-forest](https://github.com/BtraRahul/LC-Problems/tree/master/1207-delete-nodes-and-return-forest) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/BtraRahul/LC-Problems/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Breadth-First Search
@@ -92,6 +95,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0738-monotone-increasing-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0738-monotone-increasing-digits) |
+| [0870-magic-squares-in-grid](https://github.com/BtraRahul/LC-Problems/tree/master/0870-magic-squares-in-grid) |
 | [3046-minimum-operations-to-make-a-special-number](https://github.com/BtraRahul/LC-Problems/tree/master/3046-minimum-operations-to-make-a-special-number) |
 ## Greedy
 |  |
