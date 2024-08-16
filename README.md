@@ -7,6 +7,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0624-maximum-distance-in-arrays](https://github.com/BtraRahul/LC-Problems/tree/master/0624-maximum-distance-in-arrays) |
 | [0733-flood-fill](https://github.com/BtraRahul/LC-Problems/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
 | [0870-magic-squares-in-grid](https://github.com/BtraRahul/LC-Problems/tree/master/0870-magic-squares-in-grid) |
@@ -108,6 +109,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0402-remove-k-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0402-remove-k-digits) |
+| [0624-maximum-distance-in-arrays](https://github.com/BtraRahul/LC-Problems/tree/master/0624-maximum-distance-in-arrays) |
 | [0738-monotone-increasing-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0738-monotone-increasing-digits) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/BtraRahul/LC-Problems/tree/master/2337-remove-digit-from-number-to-maximize-result) |
