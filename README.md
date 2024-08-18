@@ -64,6 +64,7 @@ Collection of LeetCode questions.
 ## Dynamic Programming
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0264-ugly-number-ii) |
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/BtraRahul/LC-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -81,6 +82,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0126-word-ladder-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0126-word-ladder-ii) |
+| [0264-ugly-number-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0264-ugly-number-ii) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/BtraRahul/LC-Problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0870-magic-squares-in-grid](https://github.com/BtraRahul/LC-Problems/tree/master/0870-magic-squares-in-grid) |
 | [0999-regions-cut-by-slashes](https://github.com/BtraRahul/LC-Problems/tree/master/0999-regions-cut-by-slashes) |
@@ -102,6 +104,7 @@ Collection of LeetCode questions.
 ## Math
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0264-ugly-number-ii) |
 | [0738-monotone-increasing-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0738-monotone-increasing-digits) |
 | [0870-magic-squares-in-grid](https://github.com/BtraRahul/LC-Problems/tree/master/0870-magic-squares-in-grid) |
 | [3046-minimum-operations-to-make-a-special-number](https://github.com/BtraRahul/LC-Problems/tree/master/3046-minimum-operations-to-make-a-special-number) |
@@ -171,6 +174,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/BtraRahul/LC-Problems/tree/master/0023-merge-k-sorted-lists) |
+| [0264-ugly-number-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0264-ugly-number-ii) |
 ## Merge Sort
 |  |
 | ------- |
