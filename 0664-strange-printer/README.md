@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/strange-printer/?envType=daily-question&envId=2024-08-21">664. Strange Printer</a></h2><h3>Hard</h3><hr><p>There is a strange printer with the following two special properties:</p>
+<h2><a href="https://leetcode.com/problems/strange-printer">664. Strange Printer</a></h2><h3>Hard</h3><hr><p>There is a strange printer with the following two special properties:</p>
 
 <ul>
 	<li>The printer can only print a sequence of <strong>the same character</strong> each time.</li>
