@@ -18,6 +18,7 @@ Collection of LeetCode questions.
 | [1402-count-square-submatrices-with-all-ones](https://github.com/BtraRahul/LC-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3347-distribute-elements-into-two-arrays-i) |
 ## Two Pointers
 |  |
@@ -61,6 +62,7 @@ Collection of LeetCode questions.
 ## Simulation
 |  |
 | ------- |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3347-distribute-elements-into-two-arrays-i) |
 ## Dynamic Programming
 |  |
@@ -168,6 +170,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Linked List
 |  |
 | ------- |
@@ -193,4 +196,8 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [1908-recyclable-and-low-fat-products](https://github.com/BtraRahul/LC-Problems/tree/master/1908-recyclable-and-low-fat-products) |
+## Prefix Sum
+|  |
+| ------- |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 <!---LeetCode Topics End-->
