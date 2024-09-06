@@ -20,6 +20,7 @@ Collection of LeetCode questions.
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3347-distribute-elements-into-two-arrays-i) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/BtraRahul/LC-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -92,6 +93,7 @@ Collection of LeetCode questions.
 | [0999-regions-cut-by-slashes](https://github.com/BtraRahul/LC-Problems/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/BtraRahul/LC-Problems/tree/master/1207-delete-nodes-and-return-forest) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/BtraRahul/LC-Problems/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/BtraRahul/LC-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -175,6 +177,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/BtraRahul/LC-Problems/tree/master/0023-merge-k-sorted-lists) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/BtraRahul/LC-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
