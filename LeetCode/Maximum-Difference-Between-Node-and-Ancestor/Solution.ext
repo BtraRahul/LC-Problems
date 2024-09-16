@@ -1,8 +1,65 @@
-Input: root = [8,3,10,1,6,null,14,null,null,4,7,13]
-Output: 7
-Explanation: We have various ancestor-node differences, some of which are given below :
-|8 - 3| = 5
-|3 - 7| = 4
-|8 - 1| = 7
-|10 - 13| = 3
-Among all possible differences, the maximum value of 7 is obtained by |8 - 1| = 7.
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
+ * };
+ */
+
+// 8 LeftNode = {1, 7}  min, max from left
+//    RightNode= {10,14} min, max from right
+// calc the maximum ans;
+
+// 3 leftNode = {1,1}  -
+//   RightNode = {4,7} -
+// calc the maximum ans;
+// return {min(1,1,4,7), max(1,1,4,7)}
+
+// 10 leftNode = {10,10}
+//    rightNode= {13,14}
+// calc the maximum ans;
+// return {10,14}
+class Solution {
+    int maxAns = 0;
+    pair<int, int> findMinMax(TreeNode* root) {
+
+        int value = root->val;
+
+        // check for leaf node
+        if (root->left == nullptr && root->right == nullptr)
+            return {value, value};
+
+        pair<int, int> minMaxLeftValue = {value, value};
+
+        if (root->left)
+            minMaxLeftValue = findMinMax(root->left);
+
+        pair<int, int> minMaxRightValue = {value, value};
+        if (root->right)
+            minMaxRightValue = findMinMax(root->right);
+
+        int minValue =
+            min({value, minMaxLeftValue.first, minMaxRightValue.first});
+
+        int maxValue =
+            max({value, minMaxLeftValue.second, minMaxRightValue.second});
+
+        int maxDiff = max(abs(minValue - value), abs(maxValue - value));
+
+        maxAns = max(maxAns, maxDiff);
+
+        return {minValue, maxValue};
+    }
+
+public:
+    int maxAncestorDiff(TreeNode* root) {
+        pair<int, int> val = findMinMax(root);
+        cout << val.first << " " << val.second;
+        return maxAns;
+    }
+};
