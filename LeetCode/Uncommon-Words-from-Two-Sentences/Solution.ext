@@ -1,0 +1,25 @@
+class Solution {
+public:
+    vector<string> uncommonFromSentences(string s1, string s2) {
+        istringstream is1(s1);
+        istringstream is2(s2);
+        vector<string> ans;
+        map<string, int> st;
+        string word;
+
+        while (is1 >> word) {
+            st[word]++;
+        }
+
+        while (is2 >> word) {
+            st[word]++;
+        }
+
+        for (auto s : st) {
+            if (s.second == 1)
+                ans.push_back(s.first);
+        }
+
+        return ans;
+    }
+};
