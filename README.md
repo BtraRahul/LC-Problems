@@ -31,6 +31,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0126-word-ladder-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0126-word-ladder-ii) |
+| [0214-shortest-palindrome](https://github.com/BtraRahul/LC-Problems/tree/master/0214-shortest-palindrome) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/BtraRahul/LC-Problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0402-remove-k-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0402-remove-k-digits) |
 | [0664-strange-printer](https://github.com/BtraRahul/LC-Problems/tree/master/0664-strange-printer) |
@@ -207,4 +208,16 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+## Rolling Hash
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/BtraRahul/LC-Problems/tree/master/0214-shortest-palindrome) |
+## String Matching
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/BtraRahul/LC-Problems/tree/master/0214-shortest-palindrome) |
+## Hash Function
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/BtraRahul/LC-Problems/tree/master/0214-shortest-palindrome) |
 <!---LeetCode Topics End-->
