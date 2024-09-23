@@ -20,6 +20,7 @@ Collection of LeetCode questions.
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2411-spiral-matrix-iv](https://github.com/BtraRahul/LC-Problems/tree/master/2411-spiral-matrix-iv) |
+| [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3347-distribute-elements-into-two-arrays-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/BtraRahul/LC-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
@@ -37,6 +38,7 @@ Collection of LeetCode questions.
 | [0664-strange-printer](https://github.com/BtraRahul/LC-Problems/tree/master/0664-strange-printer) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/BtraRahul/LC-Problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/BtraRahul/LC-Problems/tree/master/2337-remove-digit-from-number-to-maximize-result) |
+| [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
 | [3046-minimum-operations-to-make-a-special-number](https://github.com/BtraRahul/LC-Problems/tree/master/3046-minimum-operations-to-make-a-special-number) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/BtraRahul/LC-Problems/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Tree
@@ -76,6 +78,7 @@ Collection of LeetCode questions.
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/BtraRahul/LC-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
 ## Matrix
 |  |
 | ------- |
@@ -96,6 +99,7 @@ Collection of LeetCode questions.
 | [0870-magic-squares-in-grid](https://github.com/BtraRahul/LC-Problems/tree/master/0870-magic-squares-in-grid) |
 | [0999-regions-cut-by-slashes](https://github.com/BtraRahul/LC-Problems/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/BtraRahul/LC-Problems/tree/master/1207-delete-nodes-and-return-forest) |
+| [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/BtraRahul/LC-Problems/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/BtraRahul/LC-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Breadth-First Search
@@ -220,4 +224,8 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/BtraRahul/LC-Problems/tree/master/0214-shortest-palindrome) |
+## Trie
+|  |
+| ------- |
+| [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
 <!---LeetCode Topics End-->
