@@ -6,6 +6,7 @@ Collection of LeetCode questions.
 ## Array
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/BtraRahul/LC-Problems/tree/master/0053-maximum-subarray) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0624-maximum-distance-in-arrays](https://github.com/BtraRahul/LC-Problems/tree/master/0624-maximum-distance-in-arrays) |
 | [0729-my-calendar-i](https://github.com/BtraRahul/LC-Problems/tree/master/0729-my-calendar-i) |
@@ -74,6 +75,7 @@ Collection of LeetCode questions.
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/BtraRahul/LC-Problems/tree/master/0053-maximum-subarray) |
 | [0264-ugly-number-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0264-ugly-number-ii) |
 | [0664-strange-printer](https://github.com/BtraRahul/LC-Problems/tree/master/0664-strange-printer) |
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
@@ -150,6 +152,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/BtraRahul/LC-Problems/tree/master/0023-merge-k-sorted-lists) |
+| [0053-maximum-subarray](https://github.com/BtraRahul/LC-Problems/tree/master/0053-maximum-subarray) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/BtraRahul/LC-Problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 ## Sliding Window
 |  |
