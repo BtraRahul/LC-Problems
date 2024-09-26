@@ -23,7 +23,6 @@ public:
         int currIdx =
             lower_bound(intervals.begin(), intervals.end(), newInterval) -
             intervals.begin();
-        cout << currIdx << " ";
 
         // currIdx  = size, -1,  0
         pair<int, int> currInterval = {1e9, 1e9};
@@ -42,7 +41,6 @@ public:
             return false;
 
         intervals.insert(intervals.begin()+currIdx, {start, end});
-        // sort(intervals.begin(), intervals.end());
         size++;
         return true;
     }
