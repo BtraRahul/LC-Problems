@@ -1,4 +1,24 @@
-Input: prices = [3,3,5,0,0,3,1,4]
-Output: 6
-Explanation: Buy on day 4 (price = 0) and sell on day 6 (price = 3), profit = 3-0 = 3.
-Then buy on day 7 (price = 1) and sell on day 8 (price = 4), profit = 4-1 = 3.
+class Solution {
+    vector<vector<vector<int>>> memo;
+
+public:
+    int helper(int idx, int buy, auto& pr, int cap) {
+        if (idx >= pr.size() || cap == 0)
+            return 0;
+
+        if (memo[idx][buy][cap] + 1)
+            return memo[idx][buy][cap];
+        if (buy) {
+            return memo[idx][buy][cap] =
+                       max(helper(idx + 1, 0, pr, cap) - pr[idx],
+                           helper(idx + 1, 1, pr, cap));
+        } else
+            return memo[idx][buy][cap] =
+                       max(helper(idx + 1, 1, pr, cap - 1) + pr[idx],
+                           helper(idx + 1, 0, pr, cap));
+    }
+    int maxProfit(vector<int>& prices) {
+        memo.resize(prices.size(), vector<vector<int>>(2, vector<int>(3, -1)));
+        return helper(0, 1, prices, 2);
+    }
+};
