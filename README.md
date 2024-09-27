@@ -6,6 +6,7 @@ Collection of LeetCode questions.
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/BtraRahul/LC-Problems/tree/master/0031-next-permutation) |
 | [0053-maximum-subarray](https://github.com/BtraRahul/LC-Problems/tree/master/0053-maximum-subarray) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0624-maximum-distance-in-arrays](https://github.com/BtraRahul/LC-Problems/tree/master/0624-maximum-distance-in-arrays) |
@@ -29,6 +30,7 @@ Collection of LeetCode questions.
 ## Two Pointers
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/BtraRahul/LC-Problems/tree/master/0031-next-permutation) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/BtraRahul/LC-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
