@@ -21,6 +21,7 @@ Collection of LeetCode questions.
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/BtraRahul/LC-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2411-spiral-matrix-iv](https://github.com/BtraRahul/LC-Problems/tree/master/2411-spiral-matrix-iv) |
 | [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3347-distribute-elements-into-two-arrays-i) |
@@ -30,6 +31,7 @@ Collection of LeetCode questions.
 | ------- |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/BtraRahul/LC-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 ## String
 |  |
 | ------- |
@@ -70,6 +72,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/BtraRahul/LC-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2411-spiral-matrix-iv](https://github.com/BtraRahul/LC-Problems/tree/master/2411-spiral-matrix-iv) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3347-distribute-elements-into-two-arrays-i) |
 ## Dynamic Programming
