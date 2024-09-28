@@ -8,6 +8,7 @@ Collection of LeetCode questions.
 | ------- |
 | [0031-next-permutation](https://github.com/BtraRahul/LC-Problems/tree/master/0031-next-permutation) |
 | [0053-maximum-subarray](https://github.com/BtraRahul/LC-Problems/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/BtraRahul/LC-Problems/tree/master/0054-spiral-matrix) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0624-maximum-distance-in-arrays](https://github.com/BtraRahul/LC-Problems/tree/master/0624-maximum-distance-in-arrays) |
 | [0729-my-calendar-i](https://github.com/BtraRahul/LC-Problems/tree/master/0729-my-calendar-i) |
@@ -74,6 +75,7 @@ Collection of LeetCode questions.
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/BtraRahul/LC-Problems/tree/master/0054-spiral-matrix) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/BtraRahul/LC-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2411-spiral-matrix-iv](https://github.com/BtraRahul/LC-Problems/tree/master/2411-spiral-matrix-iv) |
@@ -91,6 +93,7 @@ Collection of LeetCode questions.
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/BtraRahul/LC-Problems/tree/master/0054-spiral-matrix) |
 | [0733-flood-fill](https://github.com/BtraRahul/LC-Problems/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
 | [0870-magic-squares-in-grid](https://github.com/BtraRahul/LC-Problems/tree/master/0870-magic-squares-in-grid) |
