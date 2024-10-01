@@ -22,6 +22,7 @@ Collection of LeetCode questions.
 | [1333-sort-the-jumbled-numbers](https://github.com/BtraRahul/LC-Problems/tree/master/1333-sort-the-jumbled-numbers) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/BtraRahul/LC-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/BtraRahul/LC-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/BtraRahul/LC-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -111,6 +112,7 @@ Collection of LeetCode questions.
 | [0870-magic-squares-in-grid](https://github.com/BtraRahul/LC-Problems/tree/master/0870-magic-squares-in-grid) |
 | [0999-regions-cut-by-slashes](https://github.com/BtraRahul/LC-Problems/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/BtraRahul/LC-Problems/tree/master/1207-delete-nodes-and-return-forest) |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/BtraRahul/LC-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/BtraRahul/LC-Problems/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/BtraRahul/LC-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -214,6 +216,7 @@ Collection of LeetCode questions.
 ## Counting
 |  |
 | ------- |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/BtraRahul/LC-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/BtraRahul/LC-Problems/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Union Find
 |  |
