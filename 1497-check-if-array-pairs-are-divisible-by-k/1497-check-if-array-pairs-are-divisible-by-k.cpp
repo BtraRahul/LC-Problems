@@ -10,14 +10,13 @@ public:
             mp[e]++;
         }
 
-        sort(arr.begin(), arr.end());
-        
-        if(mp[0]&1) return false;
+        if (mp[0] & 1)
+            return false;
         for (int i = 1; i <= k / 2; i++) {
             if (mp[i] != mp[k - i])
                 return false;
         }
-        
+
         return true;
     }
 };
