@@ -11,6 +11,7 @@ Collection of LeetCode questions.
 | [0054-spiral-matrix](https://github.com/BtraRahul/LC-Problems/tree/master/0054-spiral-matrix) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0624-maximum-distance-in-arrays](https://github.com/BtraRahul/LC-Problems/tree/master/0624-maximum-distance-in-arrays) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/BtraRahul/LC-Problems/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0729-my-calendar-i](https://github.com/BtraRahul/LC-Problems/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0731-my-calendar-ii) |
 | [0733-flood-fill](https://github.com/BtraRahul/LC-Problems/tree/master/0733-flood-fill) |
@@ -88,6 +89,7 @@ Collection of LeetCode questions.
 | [0053-maximum-subarray](https://github.com/BtraRahul/LC-Problems/tree/master/0053-maximum-subarray) |
 | [0264-ugly-number-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0264-ugly-number-ii) |
 | [0664-strange-printer](https://github.com/BtraRahul/LC-Problems/tree/master/0664-strange-printer) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/BtraRahul/LC-Problems/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/BtraRahul/LC-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -258,6 +260,7 @@ Collection of LeetCode questions.
 ## Segment Tree
 |  |
 | ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/BtraRahul/LC-Problems/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0729-my-calendar-i](https://github.com/BtraRahul/LC-Problems/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0731-my-calendar-ii) |
 ## Ordered Set
@@ -265,4 +268,8 @@ Collection of LeetCode questions.
 | ------- |
 | [0729-my-calendar-i](https://github.com/BtraRahul/LC-Problems/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0731-my-calendar-ii) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/BtraRahul/LC-Problems/tree/master/0673-number-of-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
