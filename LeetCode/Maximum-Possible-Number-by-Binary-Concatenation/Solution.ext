@@ -1,0 +1,41 @@
+class Solution {
+public:
+    int convertBinaryToNumber(string binaryStr) {
+        return stoi(binaryStr, nullptr, 2);
+    }
+    int makeAns(vector<int>& ans, int a, int b, int c) {
+        string bA, bB, bC;
+        while (a > 0) {
+            bA = to_string(a % 2) + bA; // Prepend the bit
+            a /= 2;
+        }
+        while (b > 0) {
+            bB = to_string(b % 2) + bB; // Prepend the bit
+            b /= 2;
+        }
+        while (c > 0) {
+            bC = to_string(c % 2) + bC; // Prepend the bit
+            c /= 2;
+        }
+
+        return convertBinaryToNumber(bA + bB + bC);
+    }
+    int maxGoodNumber(vector<int>& nums) {
+        int a = nums[0];
+        int b = nums[1];
+        int c = nums[2];
+
+        vector<int> ans;
+
+        int n = nums.size();
+        int final = 0;
+        final = max(final, makeAns(ans, a, b, c));
+        final = max(final, makeAns(ans, a, c, b));
+        final = max(final, makeAns(ans, b, a, c));
+        final = max(final, makeAns(ans, b, c, a));
+        final = max(final, makeAns(ans, c, b, a));
+        final = max(final, makeAns(ans, c, a, b));
+
+        return final;
+    }
+};
