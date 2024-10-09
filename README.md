@@ -48,6 +48,7 @@ Collection of LeetCode questions.
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/BtraRahul/LC-Problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0402-remove-k-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0402-remove-k-digits) |
 | [0664-strange-printer](https://github.com/BtraRahul/LC-Problems/tree/master/0664-strange-printer) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/BtraRahul/LC-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/BtraRahul/LC-Problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/BtraRahul/LC-Problems/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 | [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
@@ -148,6 +149,7 @@ Collection of LeetCode questions.
 | [0402-remove-k-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0402-remove-k-digits) |
 | [0624-maximum-distance-in-arrays](https://github.com/BtraRahul/LC-Problems/tree/master/0624-maximum-distance-in-arrays) |
 | [0738-monotone-increasing-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0738-monotone-increasing-digits) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/BtraRahul/LC-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/BtraRahul/LC-Problems/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 | [3046-minimum-operations-to-make-a-special-number](https://github.com/BtraRahul/LC-Problems/tree/master/3046-minimum-operations-to-make-a-special-number) |
@@ -161,6 +163,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0402-remove-k-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0402-remove-k-digits) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/BtraRahul/LC-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Monotonic Stack
 |  |
 | ------- |
