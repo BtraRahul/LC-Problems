@@ -1,0 +1,32 @@
+class Solution {
+public:
+    string compressedString(string word) {
+        stack<pair<int, char>> st, st2;
+        st.push({1, word[0]});
+
+        string final;
+        for (int i = 1; i < word.size(); i++) {
+            char ch = word[i];
+            auto [f, currCh] = st.top();
+            if (f == 9 || currCh != ch) {
+                st.push({1, ch});
+            } else {
+                int frq = st.top().first;
+                st.pop();
+                st.push({frq + 1, ch});
+            }
+        }
+
+        while (st.size()) {
+            st2.push(st.top());
+            st.pop();
+        }
+
+        while (st2.size()) {
+            auto [f, ch] = st2.top();
+            st2.pop();
+            final += to_string(f) + ch;
+        }
+        return final;
+    }
+};
