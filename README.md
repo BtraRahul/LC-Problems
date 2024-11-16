@@ -36,6 +36,7 @@ Collection of LeetCode questions.
 | [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3347-distribute-elements-into-two-arrays-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/BtraRahul/LC-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -184,6 +185,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/BtraRahul/LC-Problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Graph
 |  |
 | ------- |
