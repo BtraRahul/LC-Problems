@@ -32,6 +32,7 @@ Collection of LeetCode questions.
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/BtraRahul/LC-Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/BtraRahul/LC-Problems/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/BtraRahul/LC-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/BtraRahul/LC-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/BtraRahul/LC-Problems/tree/master/2411-spiral-matrix-iv) |
 | [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3347-distribute-elements-into-two-arrays-i) |
@@ -112,6 +113,7 @@ Collection of LeetCode questions.
 | [1036-rotting-oranges](https://github.com/BtraRahul/LC-Problems/tree/master/1036-rotting-oranges) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/BtraRahul/LC-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/BtraRahul/LC-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/BtraRahul/LC-Problems/tree/master/2411-spiral-matrix-iv) |
 ## Hash Table
 |  |
@@ -138,6 +140,7 @@ Collection of LeetCode questions.
 | [0999-regions-cut-by-slashes](https://github.com/BtraRahul/LC-Problems/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/BtraRahul/LC-Problems/tree/master/1036-rotting-oranges) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/BtraRahul/LC-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Backtracking
 |  |
 | ------- |
@@ -192,6 +195,7 @@ Collection of LeetCode questions.
 | [0820-find-eventual-safe-states](https://github.com/BtraRahul/LC-Problems/tree/master/0820-find-eventual-safe-states) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/BtraRahul/LC-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Topological Sort
 |  |
 | ------- |
@@ -210,6 +214,7 @@ Collection of LeetCode questions.
 | ------- |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/BtraRahul/LC-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Binary Search
 |  |
 | ------- |
@@ -230,6 +235,7 @@ Collection of LeetCode questions.
 | [0023-merge-k-sorted-lists](https://github.com/BtraRahul/LC-Problems/tree/master/0023-merge-k-sorted-lists) |
 | [0264-ugly-number-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0264-ugly-number-ii) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/BtraRahul/LC-Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/BtraRahul/LC-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Merge Sort
 |  |
 | ------- |
