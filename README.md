@@ -35,6 +35,7 @@ Collection of LeetCode questions.
 | [2271-rearrange-array-elements-by-sign](https://github.com/BtraRahul/LC-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/BtraRahul/LC-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/BtraRahul/LC-Problems/tree/master/2411-spiral-matrix-iv) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/BtraRahul/LC-Problems/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3347-distribute-elements-into-two-arrays-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/BtraRahul/LC-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -47,6 +48,7 @@ Collection of LeetCode questions.
 | [0455-assign-cookies](https://github.com/BtraRahul/LC-Problems/tree/master/0455-assign-cookies) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/BtraRahul/LC-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/BtraRahul/LC-Problems/tree/master/2699-count-the-number-of-fair-pairs) |
 ## String
 |  |
 | ------- |
@@ -213,6 +215,7 @@ Collection of LeetCode questions.
 | [1256-rank-transform-of-an-array](https://github.com/BtraRahul/LC-Problems/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/BtraRahul/LC-Problems/tree/master/1333-sort-the-jumbled-numbers) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/BtraRahul/LC-Problems/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/BtraRahul/LC-Problems/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Shortest Path
 |  |
@@ -228,6 +231,7 @@ Collection of LeetCode questions.
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/BtraRahul/LC-Problems/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/BtraRahul/LC-Problems/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Linked List
 |  |
 | ------- |
