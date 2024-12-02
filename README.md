@@ -17,6 +17,7 @@ Collection of LeetCode questions.
 | [0731-my-calendar-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0731-my-calendar-ii) |
 | [0733-flood-fill](https://github.com/BtraRahul/LC-Problems/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
+| [0787-sliding-puzzle](https://github.com/BtraRahul/LC-Problems/tree/master/0787-sliding-puzzle) |
 | [0870-magic-squares-in-grid](https://github.com/BtraRahul/LC-Problems/tree/master/0870-magic-squares-in-grid) |
 | [0999-regions-cut-by-slashes](https://github.com/BtraRahul/LC-Problems/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/BtraRahul/LC-Problems/tree/master/1036-rotting-oranges) |
@@ -99,6 +100,7 @@ Collection of LeetCode questions.
 | [0664-strange-printer](https://github.com/BtraRahul/LC-Problems/tree/master/0664-strange-printer) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/BtraRahul/LC-Problems/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
+| [0787-sliding-puzzle](https://github.com/BtraRahul/LC-Problems/tree/master/0787-sliding-puzzle) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/BtraRahul/LC-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/BtraRahul/LC-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
@@ -108,6 +110,7 @@ Collection of LeetCode questions.
 | [0054-spiral-matrix](https://github.com/BtraRahul/LC-Problems/tree/master/0054-spiral-matrix) |
 | [0733-flood-fill](https://github.com/BtraRahul/LC-Problems/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
+| [0787-sliding-puzzle](https://github.com/BtraRahul/LC-Problems/tree/master/0787-sliding-puzzle) |
 | [0870-magic-squares-in-grid](https://github.com/BtraRahul/LC-Problems/tree/master/0870-magic-squares-in-grid) |
 | [0999-regions-cut-by-slashes](https://github.com/BtraRahul/LC-Problems/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/BtraRahul/LC-Problems/tree/master/1036-rotting-oranges) |
@@ -136,6 +139,7 @@ Collection of LeetCode questions.
 | ------- |
 | [0126-word-ladder-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0126-word-ladder-ii) |
 | [0733-flood-fill](https://github.com/BtraRahul/LC-Problems/tree/master/0733-flood-fill) |
+| [0787-sliding-puzzle](https://github.com/BtraRahul/LC-Problems/tree/master/0787-sliding-puzzle) |
 | [0820-find-eventual-safe-states](https://github.com/BtraRahul/LC-Problems/tree/master/0820-find-eventual-safe-states) |
 | [0999-regions-cut-by-slashes](https://github.com/BtraRahul/LC-Problems/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/BtraRahul/LC-Problems/tree/master/1036-rotting-oranges) |
@@ -145,6 +149,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0126-word-ladder-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0126-word-ladder-ii) |
+| [0787-sliding-puzzle](https://github.com/BtraRahul/LC-Problems/tree/master/0787-sliding-puzzle) |
 ## Math
 |  |
 | ------- |
@@ -295,4 +300,8 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/BtraRahul/LC-Problems/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Memoization
+|  |
+| ------- |
+| [0787-sliding-puzzle](https://github.com/BtraRahul/LC-Problems/tree/master/0787-sliding-puzzle) |
 <!---LeetCode Topics End-->
