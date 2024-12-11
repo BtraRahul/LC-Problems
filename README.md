@@ -37,6 +37,7 @@ Collection of LeetCode questions.
 | [2411-spiral-matrix-iv](https://github.com/BtraRahul/LC-Problems/tree/master/2411-spiral-matrix-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/BtraRahul/LC-Problems/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/BtraRahul/LC-Problems/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3347-distribute-elements-into-two-arrays-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/BtraRahul/LC-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
@@ -197,6 +198,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/BtraRahul/LC-Problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/BtraRahul/LC-Problems/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/BtraRahul/LC-Problems/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Graph
 |  |
@@ -218,6 +220,7 @@ Collection of LeetCode questions.
 | [1333-sort-the-jumbled-numbers](https://github.com/BtraRahul/LC-Problems/tree/master/1333-sort-the-jumbled-numbers) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/BtraRahul/LC-Problems/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/BtraRahul/LC-Problems/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/BtraRahul/LC-Problems/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Shortest Path
 |  |
@@ -234,6 +237,7 @@ Collection of LeetCode questions.
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/BtraRahul/LC-Problems/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/BtraRahul/LC-Problems/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/BtraRahul/LC-Problems/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 ## Linked List
 |  |
 | ------- |
