@@ -1,0 +1,26 @@
+#define pii pair<int, int>
+class Solution {
+public:
+    vector<int> getFinalState(vector<int>& nums, int k, int multiplier) {
+        priority_queue<pii, vector<pii>, greater<>> pq;
+        for (int i = 0; i < nums.size(); i++) {
+            pq.push({nums[i], i});
+        }
+
+        while (k) {
+            auto [num, i] = pq.top();
+            pq.pop();
+            num *= multiplier;
+            pq.push({num, i});
+            k--;
+        }
+
+        while (pq.size()) {
+            auto [num, i] = pq.top();
+            pq.pop();
+            nums[i] = num;
+        }
+
+        return nums;
+    }
+};
