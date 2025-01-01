@@ -60,6 +60,7 @@ Collection of LeetCode questions.
 | [0402-remove-k-digits](https://github.com/BtraRahul/LC-Problems/tree/master/0402-remove-k-digits) |
 | [0664-strange-printer](https://github.com/BtraRahul/LC-Problems/tree/master/0664-strange-printer) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/BtraRahul/LC-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/BtraRahul/LC-Problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/BtraRahul/LC-Problems/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 | [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
@@ -272,6 +273,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0731-my-calendar-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0731-my-calendar-ii) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1694-make-sum-divisible-by-p](https://github.com/BtraRahul/LC-Problems/tree/master/1694-make-sum-divisible-by-p) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Rolling Hash
