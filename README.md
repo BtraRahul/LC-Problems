@@ -33,6 +33,7 @@ Collection of LeetCode questions.
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/BtraRahul/LC-Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/BtraRahul/LC-Problems/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/BtraRahul/LC-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2358-number-of-ways-to-split-array](https://github.com/BtraRahul/LC-Problems/tree/master/2358-number-of-ways-to-split-array) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/BtraRahul/LC-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/BtraRahul/LC-Problems/tree/master/2411-spiral-matrix-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/BtraRahul/LC-Problems/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -276,6 +277,7 @@ Collection of LeetCode questions.
 | [1537-maximum-score-after-splitting-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1694-make-sum-divisible-by-p](https://github.com/BtraRahul/LC-Problems/tree/master/1694-make-sum-divisible-by-p) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/BtraRahul/LC-Problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2358-number-of-ways-to-split-array](https://github.com/BtraRahul/LC-Problems/tree/master/2358-number-of-ways-to-split-array) |
 ## Rolling Hash
 |  |
 | ------- |
