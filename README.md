@@ -9,6 +9,7 @@ Collection of LeetCode questions.
 | [0031-next-permutation](https://github.com/BtraRahul/LC-Problems/tree/master/0031-next-permutation) |
 | [0053-maximum-subarray](https://github.com/BtraRahul/LC-Problems/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/BtraRahul/LC-Problems/tree/master/0054-spiral-matrix) |
+| [0074-search-a-2d-matrix](https://github.com/BtraRahul/LC-Problems/tree/master/0074-search-a-2d-matrix) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0455-assign-cookies](https://github.com/BtraRahul/LC-Problems/tree/master/0455-assign-cookies) |
 | [0624-maximum-distance-in-arrays](https://github.com/BtraRahul/LC-Problems/tree/master/0624-maximum-distance-in-arrays) |
@@ -116,6 +117,7 @@ Collection of LeetCode questions.
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/BtraRahul/LC-Problems/tree/master/0054-spiral-matrix) |
+| [0074-search-a-2d-matrix](https://github.com/BtraRahul/LC-Problems/tree/master/0074-search-a-2d-matrix) |
 | [0733-flood-fill](https://github.com/BtraRahul/LC-Problems/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/BtraRahul/LC-Problems/tree/master/0741-cherry-pickup) |
 | [0787-sliding-puzzle](https://github.com/BtraRahul/LC-Problems/tree/master/0787-sliding-puzzle) |
@@ -236,6 +238,7 @@ Collection of LeetCode questions.
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/BtraRahul/LC-Problems/tree/master/0074-search-a-2d-matrix) |
 | [0729-my-calendar-i](https://github.com/BtraRahul/LC-Problems/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0731-my-calendar-ii) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
