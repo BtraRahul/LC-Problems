@@ -57,12 +57,12 @@ public:
     vector<vector<int>> highestPeak(vector<vector<int>>& isWater) {
         int m = isWater.size();
         int n = isWater[0].size();
-        vector<vector<int>> ans(isWater);
+        vector<vector<int>> ans(isWater), vis(isWater);
         queue<pii> q;
-        map<pii, int> vis;
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
+                vis[i][j] = 0;
                 ans[i][j] = INT_MAX;
                 if (isWater[i][j]) {
                     ans[i][j] = 0;
@@ -75,9 +75,9 @@ public:
             auto [x, y] = q.front();
             // cout << x << "," << y << ": " << ans[x][y] << endl;
             q.pop();
-            if (vis[{x, y}] == 1)
+            if (vis[x][y] == 1)
                 continue;
-            vis[{x, y}] = 1;
+            vis[x][y] = 1;
 
             if (isWater[x][y] == 1)
                 ans[x][y] = 0;
@@ -90,7 +90,7 @@ public:
                 int newX = x + dxdy[i][0];
                 int newY = y + dxdy[i][1];
 
-                if (isValid(newX, newY, m, n) == false || vis[{newX, newY}])
+                if (isValid(newX, newY, m, n) == false || vis[newX][newY] == 1)
                     continue;
                 q.push({newX, newY});
             }
