@@ -31,21 +31,21 @@ algo:
 
 #define pii pair<int, int>
 class Solution {
+    int m, n;
     int dxdy[4][2] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-    bool isValid(int i, int j, int r, int c) {
-        return (i >= 0) && (j >= 0) && (i < r) && (j < c);
+    bool isValid(int i, int j) {
+        return (i >= 0) && (j >= 0) && (i < m) && (j < n);
     }
 
     int findMinAdjVal(int x, int y, auto& mat) {
-        int m = mat.size();
-        int n = mat[0].size();
+
         int minVal = INT_MAX;
 
         for (int i = 0; i < 4; i++) {
             int newX = x + dxdy[i][0];
             int newY = y + dxdy[i][1];
 
-            if (isValid(newX, newY, m, n) == false)
+            if (isValid(newX, newY) == false)
                 continue;
             minVal = min(minVal, mat[newX][newY]);
         }
@@ -55,25 +55,24 @@ class Solution {
 
 public:
     vector<vector<int>> highestPeak(vector<vector<int>>& isWater) {
-        int m = isWater.size();
-        int n = isWater[0].size();
+        m = isWater.size(), n = isWater[0].size();
         vector<vector<int>> ans(isWater), vis(isWater);
         queue<pii> q;
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 vis[i][j] = 0;
-                ans[i][j] = INT_MAX;
                 if (isWater[i][j]) {
                     ans[i][j] = 0;
                     q.push({i, j});
+                } else {
+                    ans[i][j] = INT_MAX;
                 }
             }
         }
 
         while (q.size()) {
             auto [x, y] = q.front();
-            // cout << x << "," << y << ": " << ans[x][y] << endl;
             q.pop();
             if (vis[x][y] == 1)
                 continue;
@@ -90,7 +89,7 @@ public:
                 int newX = x + dxdy[i][0];
                 int newY = y + dxdy[i][1];
 
-                if (isValid(newX, newY, m, n) == false || vis[newX][newY] == 1)
+                if (!isValid(newX, newY) || vis[newX][newY])
                     continue;
                 q.push({newX, newY});
             }
