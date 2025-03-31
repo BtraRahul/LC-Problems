@@ -37,6 +37,7 @@ Collection of LeetCode questions.
 | [2358-number-of-ways-to-split-array](https://github.com/BtraRahul/LC-Problems/tree/master/2358-number-of-ways-to-split-array) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/BtraRahul/LC-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/BtraRahul/LC-Problems/tree/master/2411-spiral-matrix-iv) |
+| [2681-put-marbles-in-bags](https://github.com/BtraRahul/LC-Problems/tree/master/2681-put-marbles-in-bags) |
 | [2685-first-completely-painted-row-or-column](https://github.com/BtraRahul/LC-Problems/tree/master/2685-first-completely-painted-row-or-column) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/BtraRahul/LC-Problems/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2755-extra-characters-in-a-string](https://github.com/BtraRahul/LC-Problems/tree/master/2755-extra-characters-in-a-string) |
@@ -179,6 +180,7 @@ Collection of LeetCode questions.
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/BtraRahul/LC-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/BtraRahul/LC-Problems/tree/master/2337-remove-digit-from-number-to-maximize-result) |
+| [2681-put-marbles-in-bags](https://github.com/BtraRahul/LC-Problems/tree/master/2681-put-marbles-in-bags) |
 | [3046-minimum-operations-to-make-a-special-number](https://github.com/BtraRahul/LC-Problems/tree/master/3046-minimum-operations-to-make-a-special-number) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/BtraRahul/LC-Problems/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Enumeration
@@ -226,6 +228,7 @@ Collection of LeetCode questions.
 | [1256-rank-transform-of-an-array](https://github.com/BtraRahul/LC-Problems/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/BtraRahul/LC-Problems/tree/master/1333-sort-the-jumbled-numbers) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/BtraRahul/LC-Problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [2681-put-marbles-in-bags](https://github.com/BtraRahul/LC-Problems/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/BtraRahul/LC-Problems/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/BtraRahul/LC-Problems/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/BtraRahul/LC-Problems/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -259,6 +262,7 @@ Collection of LeetCode questions.
 | [0264-ugly-number-ii](https://github.com/BtraRahul/LC-Problems/tree/master/0264-ugly-number-ii) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/BtraRahul/LC-Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/BtraRahul/LC-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2681-put-marbles-in-bags](https://github.com/BtraRahul/LC-Problems/tree/master/2681-put-marbles-in-bags) |
 ## Merge Sort
 |  |
 | ------- |
